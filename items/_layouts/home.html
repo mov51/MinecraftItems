@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+      {%- for post in site.posts -%}
+      <div class="ItemEntry">
+        <img src="/data/images/{{ post.item_image }}" alt="{{ post.item_name }}" />
+        <a href="{{ post.url | relative_url }}" class="ItemEntry-title">{{ post.item_name }}</a>
+      </div>
+      {%- endfor -%}
+  {%- endif -%}
+</div>

@@ -1,0 +1,6 @@
+---
+layout: post
+item_name:  "Apple"
+item_image:   1.19.2/apple.png
+---
+It's an apple, you eat it. 
