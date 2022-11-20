@@ -199,6 +199,7 @@
 
 .post-meta {
   font-size: $small-font-size;
+  font-weight: bold;
   color: $grey-color;
 }
 
@@ -284,5 +285,26 @@ div.ItemEntry{
   p.ItemEntry-title{
     text-align: center;
   }
-  
- }
+}
+.post-meta {
+  margin: 5px;;
+  > span{
+    color: black;
+  }
+}
+a.wiki_link{
+  color: black;
+  font-size: large;
+  margin-right: 10px;
+}
+
+img.ImageHeader{
+  width: 48px;
+  height: 48px;
+  /* IE, only works on <img> tags */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;
+}

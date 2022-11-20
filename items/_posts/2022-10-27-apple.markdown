@@ -1,6 +1,14 @@
 ---
-layout: post
+layout: item
 item_name:  "Apple"
 item_image:   1.19.2/apple.png
+added: "JE Indev 0.3.1"
+added_snapshot: "20091231-2"
+last_modified: "JE 1.14"
+last_modified_snapshot: "19w05a"
+wiki: https://minecraft.gamepedia.com/Apple
+farmable: "Yes"
+farming_requires_player: "Yes"
+categories: [food, plant]
 ---
 It's an apple, you eat it. 
